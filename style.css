@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+body {
+    margin: 0;
+    background:hsl(240, 8%, 48%);
+}
+.container {
+    padding: 0 ;
+    font-family: 'red hat display';
+    max-width: 375px;
+    text-align: center;
+    margin: 2em auto;
+    background: white;
+    border-bottom-left-radius: 1.3em ;
+    border-bottom-right-radius: 1.3em;
+    border-top-right-radius: 1.3em;
+    border-top-left-radius: 1.3em;
+}
+.hero-img {
+    padding-bottom: 0;
+}
+img {
+    width: 100%;
+    max-width: 100%;
+    border-top-right-radius: 1.3em;
+    border-top-left-radius: 1.3em;
+}
+p {
+    font-size: 1rem;
+    color: hsl(240, 8%, 48%);
+    line-height: 1.4;
+}
+h1 {
+    font-size: 1.4rem;
+    font-weight: 900;
+}
+h3 {
+    font-size: 1rem;
+}
+/* .hero-img {
+
+} */
+.section-one {
+    text-align: center;
+}
+.row {
+    display: flex;
+    align-items: center;
+    width: 75%;
+    margin: 0 auto;
+    padding: 0.8em 1.3em;
+    background: hsl(225, 100%, 98%);
+    justify-content: center;
+    border-radius: 0.7em;
+    margin-bottom: 2em;
+    
+}
+.border {
+    border: 1px solid black;
+}
+
+.change {
+    margin-left: 1em;
+}
+.change a:hover {
+    text-decoration: none;
+}
+.icon-img {
+    margin-right: 1.5em;
+}
+.para {
+    width: 60%;
+    line-height: 0.5;
+}
+
+.cta-btn {
+    margin-top: 5em;
+    padding: 0.7em 3.5em;
+    width: 60%;
+    margin: 0 auto;
+    background: hsl(266, 81%, 48%);
+    color: white;
+    border-radius: 0.5em;
+    border-style: none; 
+}
+.cta-btn:hover {
+    
+    background:hsl(266, 100%, 48%);
+    
+}
+.cancel-btn {
+    padding: 0.7em 2em;
+    margin-top: 1em;
+    background: white;
+    border: none;
+    font-weight:500;
+    color: hsl(224, 23%, 55%);
+    margin-bottom: 2em;
+}
